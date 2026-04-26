@@ -18,23 +18,23 @@ export default function Portfo() {
             Image1: img1,
             Image2: img2,
             Caption: 'A deep dive into building a multi-functional app using real-time APIs and complex logic engines.',
-            icon1: Github,
-            icon2: Github,
-            
+            icon: Github,
+            github1: 'https://github.com/rasheed091/Store',            
         },
         {
             name: 'Store ',
             Image1: img4,
             Image2: img5,
             Caption: 'A seamless e-commerce platform featuring integrated payment processing, dynamic product filtering, and a responsive shopping cart.',
-            icon1: Github,
-            icon2: Github,
+            github1: 'https://github.com/rasheed091/mystore',
+            icon: Github,
         },
         {
             name: 'Calculator & Weather App',
             Image1: img3,
             Image2: img8,
             Caption: 'A versatile utility suite combining real-time weather forecasting with a high-precision calculation engine for daily efficiency.',
+            github1: 'https://github.com/rasheed091/List-Race',
             icon: Github,
         },
         {
@@ -42,6 +42,8 @@ export default function Portfo() {
             Image1: img6,
             Image2: img7,
             Caption: 'Streamlining productivity through a dynamic interface that tracks progress from start to finish with racing-inspired precision.',
+            github1: 'https://github.com/rasheed091/List-Race',
+            
             icon: Github,
         },
     ]
@@ -63,7 +65,9 @@ export default function Portfo() {
                             </div>
                             <p className='mt-3'>{eachPro.Caption}</p>
                             <div className='flex justify-end gap-4'>
-                                <Github />
+                                <a href="https://github.com/rasheed091/Store">
+                                    <Github />
+                                </a>
                                 <MessageCircleDashed />
                             </div> 
                         </div>

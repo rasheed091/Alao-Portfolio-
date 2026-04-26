@@ -6,7 +6,6 @@ import { Send } from 'lucide-react'
 import { MessageCircleQuestionMark } from 'lucide-react'
 import { Scan } from 'lucide-react'
 
-
 export default function Mypage() {
   return (
     <>
